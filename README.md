@@ -11,7 +11,7 @@ This Python script finds possible English words from a given set of letters. It 
 
 2. Navigate to the project directory:
    ```bash
-   cd english-word-finder
+   cd English-Word-Finder
    ```
 
 ## Usage
@@ -33,8 +33,4 @@ This Python script finds possible English words from a given set of letters. It 
 Enter the letters to combine (without spaces): abcde
 Enter the word size (optional, press enter to skip): 3
 Possible English words from the provided letters are: bed, bad, dab, cad, ace, cab, deb, cad, bac, dab
-```
-# used words_alpha.txt from 
-```
-https://github.com/dwyl/english-words
 ```
