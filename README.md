@@ -51,3 +51,59 @@ The script assumes the presence of a text file named `words.txt` within the same
 - Consider incorporating error handling to gracefully manage invalid user input (e.g., non-alphabetic characters).
 - Explore advanced filtering options, such as allowing wildcards or regular expressions.
 - Provide the ability to specify a custom word list file path.
+
+
+
+```markdown
+# English Word Finder
+
+This Python script finds possible English words from a given set of letters. It loads a list of English words from a file and then generates combinations of letters to find valid English words.
+
+## Prerequisites
+
+- Python 3.x
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/english-word-finder.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd english-word-finder
+   ```
+
+## Usage
+
+1. Run the script:
+   ```bash
+   python word_finder.py
+   ```
+
+2. Enter the letters to combine (without spaces).
+
+3. Optionally, enter the desired word size (press Enter to skip).
+
+4. The script will display all possible English words from the provided letters.
+
+## Example
+
+```
+Enter the letters to combine (without spaces): abcde
+Enter the word size (optional, press enter to skip): 3
+Possible English words from the provided letters are: bed, bad, dab, cad, ace, cab, deb, cad, bac, dab
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any problems or have suggestions for improvements.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+```
+
+Make sure to replace "yourusername" with your actual GitHub username. Also, ensure that you have a `LICENSE` file containing the text of the MIT License in your repository.
