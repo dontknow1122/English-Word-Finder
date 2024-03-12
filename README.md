@@ -30,7 +30,9 @@ This Python script finds possible English words from a given set of letters. It 
 ## Example
 
 ```
-Enter the letters to combine (without spaces): abcde
-Enter the word size (optional, press enter to skip): 3
-Possible English words from the provided letters are: bed, bad, dab, cad, ace, cab, deb, cad, bac, dab
+Enter the letters to combine (without spaces): abcdef
+Enter the word size (optional, press enter to skip): 
+
+be - bed - a - face - ad - bad - deaf
+
 ```
